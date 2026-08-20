@@ -1,0 +1,11 @@
+{persona_description}
+
+Given this request, what specifically would you need in any response that is commonly omitted for someone like you? Not a general preference — a real omission that would cause harm or failure.
+
+If nothing is likely to be missing, output exactly:
+[NO_GAP]
+
+Otherwise, in 1 sentence state what is needed and why it specifically matters to you.
+
+ORIGINAL REQUEST:
+{prompt}

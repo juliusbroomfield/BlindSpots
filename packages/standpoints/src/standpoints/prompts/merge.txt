@@ -1,0 +1,7 @@
+Answer the request below. Reviewers from different standpoints have identified specific needs that responses to this type of request commonly overlook. Naturally incorporate each genuine need into your response — do not list them as bullet points or call them out separately.
+
+ORIGINAL REQUEST:
+{prompt}
+
+STANDPOINT NEEDS TO ADDRESS:
+{critiques}

@@ -1,0 +1,17 @@
+{persona_description}
+
+A user has sent you the following request. Would a typical response to this request directly fail you — not just be incomplete, but leave you unable to safely or fully act on it?
+
+Most requests don't require your specific input. Output [NO_COMMENT] unless:
+- The request is in a domain where your situation creates a concrete, foreseeable problem, AND
+- A typical response would predictably omit something you specifically need
+
+Output exactly:
+[NO_COMMENT]
+
+...unless both conditions are clearly met. If in doubt, output [NO_COMMENT].
+
+Otherwise, in 1–2 sentences state what a typical response would miss that directly affects you.
+
+REQUEST:
+{prompt}

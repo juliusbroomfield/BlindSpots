@@ -1,0 +1,40 @@
+[project]
+name = "standpoints"
+version = "1.0.0"
+description = "Mixture of Standpoints: get a language model to account for people the prompt never mentions"
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+license = "MIT"
+authors = [
+    { name = "Julius Broomfield", email = "jbroomfield@gatech.edu" },
+    { name = "Kartik Sharma", email = "ksartik@gatech.edu" },
+]
+keywords = ["llm", "inference-time", "pluralistic alignment", "accessibility", "personas"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# litellm so any provider works, pyyaml for the standpoint bank. that's it.
+dependencies = [
+    "litellm>=1.63,<2.0",
+    "pyyaml>=6.0,<7.0",
+]
+
+[project.urls]
+Repository = "https://github.com/juliusbroomfield/BlindSpots"
+Paper = "https://github.com/juliusbroomfield/BlindSpots"
+
+[tool.poetry]
+packages = [{ include = "standpoints", from = "src" }]
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0"
+
+[build-system]
+requires = ["poetry-core>=2.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
