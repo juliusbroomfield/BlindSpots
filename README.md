@@ -70,7 +70,7 @@ respond("Design a lunch menu for 200 students.", model="gpt-5-mini")
 ```
 
 Inside this repo there's also a wrapper for running it over a file of your own
-prompts, which routes through the batch endpoints:
+prompts, which routes through the batch endpoints,
 
 ```bash
 blindspot mos --model gpt-5-mini --input my_prompts.jsonl
@@ -79,7 +79,7 @@ blindspot mos --model gpt-5-mini --input my_prompts.jsonl
 ## Inspect?
 
 There's an [Inspect AI](https://inspect.aisi.org.uk) task if you'd rather not
-adopt anything from here:
+adopt anything from here,
 
 ```bash
 pip install inspect-ai
@@ -97,7 +97,7 @@ blindspot stats      # every number reported
 
 The benchmark is on the Hub at
 [juliusbroomfield/BlindSpots](https://huggingface.co/datasets/juliusbroomfield/BlindSpots),
-so you can skip this repo entirely if all you want is the data:
+so you can skip this repo entirely if all you want is the data,
 
 ```python
 from datasets import load_dataset
