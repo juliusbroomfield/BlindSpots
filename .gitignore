@@ -36,10 +36,6 @@ logs/
 *.safetensors
 *.bin
 
-# poetry.lock is deliberately NOT ignored — it pins the exact dependency
-# versions the paper's results were produced with, which is the point of a
-# reproducibility artifact. Commit it.
-
 # --- python ---
 __pycache__/
 *.py[cod]
