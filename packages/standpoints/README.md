@@ -30,7 +30,7 @@ however many standpoints activate:
    the answer omits.
 3. **merge** — the request is answered with those gaps folded in, in a critique and revise fashion.
 
-### Seeing what fired
+### Seeing what fired?
 
 ```python
 from standpoints import MoS
@@ -43,7 +43,7 @@ result.consulted       # the individual standpoints those cover
 result.gaps            # [Gap(standpoint='Muslim', comment='prayer space and halal options...')]
 ```
 
-### Bringing your own client
+### Bringing your own client?
 
 ```python
 def execute(prompts, max_tokens):
