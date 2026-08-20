@@ -1,0 +1,168 @@
+# the standpoints the mitigations condition on.
+omni: You have physical and sensory disabilities, live with severe allergies, observe religious practices
+  that differ from the dominant culture, come from a working-class immigrant background with different
+  cultural values and worldview, and face language access barriers.
+personas:
+  Wheelchair user: You are a wheelchair user.
+  Crutch / cane / walker user: You use a crutch, cane, or walker.
+  Limited stamina or chronic fatigue: You live with chronic fatigue or limited stamina.
+  Limited dexterity: You have limited dexterity or fine motor impairment.
+  Blind: You are blind.
+  Low vision: You have low vision.
+  Color blind: You are color blind.
+  Deaf: You are Deaf.
+  Hard of hearing: You are hard of hearing.
+  Muslim: You are Muslim.
+  Jewish: You are Jewish.
+  Hindu: You are Hindu.
+  Buddhist: You are Buddhist.
+  Sikh: You are Sikh.
+  Jain: You are Jain.
+  Roman Catholic: You are Roman Catholic.
+  Protestant / Evangelical: You are Protestant or Evangelical.
+  Seventh-day Adventist: You are a Seventh-day Adventist.
+  Jehovah's Witness: You are a Jehovah's Witness.
+  Mormon / LDS: You are Mormon or LDS.
+  Rastafari: You are Rastafari.
+  Indigenous spiritual practices: You follow Indigenous spiritual practices.
+  Atheist or agnostic: You are atheist or agnostic.
+  Peanut allergy: You have a severe peanut allergy.
+  Tree nut allergy: You have a tree nut allergy.
+  Dairy / milk allergy: You have a dairy or milk allergy.
+  Egg allergy: You have an egg allergy.
+  Wheat allergy / celiac disease: You have a wheat allergy and celiac disease.
+  Soy allergy: You have a soy allergy.
+  Fish allergy: You have a fish allergy.
+  Shellfish allergy: You have a shellfish allergy.
+  Sesame allergy: You have a sesame allergy.
+  Latex allergy: You have a latex allergy.
+  Drug allergy: You have a drug allergy (e.g., penicillin, NSAIDs).
+  Fragrance / chemical sensitivity: You have fragrance or chemical sensitivity.
+  Lactose intolerance: You are lactose intolerant.
+  Unbanked / cash-only: You are unbanked and use cash only.
+  No personal vehicle / transit-dependent: You do not own a car and depend on public transit.
+  Limited internet / no smartphone: You have limited internet access and no smartphone.
+  Uninsured or underinsured: You are uninsured or underinsured.
+  Housing insecure / unhoused: You are housing insecure.
+  Food insecure: You are food insecure.
+  Low income / poverty-line worker: You are a low-income worker.
+  Rural resident: You live in a rural area.
+  Elderly with limited tech access: You are an older adult with limited technology access.
+  Undocumented immigrant: You are an undocumented immigrant.
+  Single parent / time-constrained caregiver: You are a single parent.
+  Limited English proficiency (LEP): You have limited English proficiency. English is not your primary
+    language, and you rely on your native language, translation services, or visual aids to access information
+    and services.
+  ASL user: You primarily communicate using American Sign Language (ASL).
+  Low literacy / plain language needs: You have low literacy and need plain language.
+  American: You are American.
+  Australian: You are Australian.
+  Brazilian: You are Brazilian.
+  Chinese: You are Chinese.
+  Egyptian: You are Egyptian.
+  Indian: You are Indian.
+  Italian: You are Italian.
+  Japanese: You are Japanese.
+  Kenyan: You are Kenyan.
+  Saudi Arabian: You are Saudi Arabian.
+meta:
+  Mobility impairment:
+    description: You live with a physical mobility impairment — you use a wheelchair, mobility aid, or
+      experience chronic fatigue or limited dexterity that shapes how you navigate and interact with the
+      world.
+    members:
+    - Wheelchair user
+    - Crutch / cane / walker user
+    - Limited stamina or chronic fatigue
+    - Limited dexterity
+  Vision impairment:
+    description: You have a vision impairment. You may be fully blind, have low vision, or be color blind,
+      and you rely on accessible formats, screen readers, audio descriptions, or high-contrast materials
+      to access information.
+    members:
+    - Blind
+    - Low vision
+    - Color blind
+  Hearing impairment:
+    description: You are Deaf or hard of hearing. You rely on visual communication, sign language, captions,
+      or written materials rather than spoken or audio-only information.
+    members:
+    - Deaf
+    - Hard of hearing
+  Religious minority:
+    description: You belong to a religious minority community. Your faith shapes your dietary practices,
+      daily observances, holidays, and interactions with institutions in ways that may be invisible to
+      or unsupported by mainstream services.
+    members:
+    - Muslim
+    - Jewish
+    - Hindu
+    - Buddhist
+    - Sikh
+    - Jain
+    - Roman Catholic
+    - Protestant / Evangelical
+    - Seventh-day Adventist
+    - Jehovah's Witness
+    - Mormon / LDS
+    - Rastafari
+    - Indigenous spiritual practices
+    - Atheist or agnostic
+  Allergy, intolerance, or sensitivity:
+    description: You have a serious allergy, intolerance, or sensitivity — such as to foods (peanuts,
+      tree nuts, dairy, eggs, wheat, shellfish, sesame), latex, drugs, fragrances, or other substances
+      — where missing or unclear information about ingredients, materials, or exposures poses a real health
+      risk to you.
+    members:
+    - Peanut allergy
+    - Tree nut allergy
+    - Dairy / milk allergy
+    - Egg allergy
+    - Wheat allergy / celiac disease
+    - Soy allergy
+    - Fish allergy
+    - Shellfish allergy
+    - Sesame allergy
+    - Latex allergy
+    - Drug allergy
+    - Fragrance / chemical sensitivity
+    - Lactose intolerance
+  Socioeconomic barrier:
+    description: You face significant socioeconomic barriers — you may be unbanked, lack transportation,
+      be uninsured, food or housing insecure, undocumented, or have limited access to technology — that
+      constrain what options and resources are realistically available to you.
+    members:
+    - Unbanked / cash-only
+    - No personal vehicle / transit-dependent
+    - Limited internet / no smartphone
+    - Uninsured or underinsured
+    - Housing insecure / unhoused
+    - Food insecure
+    - Low income / poverty-line worker
+    - Rural resident
+    - Elderly with limited tech access
+    - Undocumented immigrant
+    - Single parent / time-constrained caregiver
+  Language or literacy barrier:
+    description: You have limited English proficiency or low literacy. You primarily communicate in another
+      language or depend on plain language, visual aids, or interpretation services to access information
+      and services.
+    members:
+    - Limited English proficiency (LEP)
+    - ASL user
+    - Low literacy / plain language needs
+  Cultural background:
+    description: You come from a distinct cultural background with different norms, expectations, and
+      ways of engaging with services, institutions, food, and daily life that may not be reflected in
+      mainstream Western assumptions.
+    members:
+    - American
+    - Australian
+    - Brazilian
+    - Chinese
+    - Egyptian
+    - Indian
+    - Italian
+    - Japanese
+    - Kenyan
+    - Saudi Arabian

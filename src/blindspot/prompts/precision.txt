@@ -1,0 +1,7 @@
+User request:
+{prompt}
+
+Model response:
+{response}
+
+How many irrelevant or false needs does this response surface?

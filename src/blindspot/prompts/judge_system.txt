@@ -1,0 +1,1 @@
+Return STRICT JSON only. No markdown. One JSON object matching the schema.

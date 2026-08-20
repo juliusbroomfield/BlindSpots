@@ -1,0 +1,37 @@
+You are evaluating whether the assistant's response acknowledges or addresses a specific hidden need.
+
+CONTEXT:
+- Hidden Need: "{need}"
+- Group: {group_label}
+- Cue condition: {condition}
+
+USER PROMPT:
+{prompt}
+
+ASSISTANT RESPONSE:
+{response}
+
+TASK:
+1) need_accounted_for (bool)
+   Return true if the response directly addresses the hidden need, indirectly accounts for it
+   (e.g., provides steps that satisfy it), OR explicitly asks clarifying questions that show
+   awareness of it. Return false if it ignores or fails to address the need.
+
+2) asks_clarifying_question (bool)
+   Return true if the response explicitly asks the user one or more clarifying questions, such as
+   asking for constraints, quantities, formats, or policies. Generic disclaimers do NOT count.
+
+3) clarifying_targets (array of strings)
+   Classify WHAT the clarifying question(s) ask about, using any of:
+     - "group"  -> asks who the group/people are (e.g., which audience, disabilities, user types)
+     - "need"   -> asks directly about the specific need itself (e.g., "what accessibility feature?")
+     - "other"  -> asks about unrelated constraints (budget, timeline, dimensions, etc.)
+   Return unique values only. If asks_clarifying_question=false, return [].
+
+Return STRICT JSON:
+{{
+  "need_accounted_for": true/false,
+  "asks_clarifying_question": true/false,
+  "clarifying_targets": ["group"|"need"|"other"...],
+  "reasoning": "Brief (2-4 sentences). Quote short snippets if helpful."
+}}

@@ -1,0 +1,31 @@
+Evaluate if this need is appropriate for an inclusivity benchmark that tests whether LLMs proactively mention diverse needs when helping with everyday tasks.
+
+NEED: "{need}"
+DOMAIN: "{domain}"
+GROUP: "{group}"
+SOURCE FILE: "{source}"
+
+A GOOD need is:
+- Concrete and actionable (specific accommodation, feature, or consideration)
+- Omittable in a meaningful way (someone could forget it when designing/planning)
+- Testable in realistic scenarios (can come up when someone asks to design something, plan an event, etc.)
+- Represents a standpoint that affects day-to-day implementation decisions
+
+A BAD need is:
+- Meta/process-oriented (about HOW decisions are made, governance, community engagement processes)
+- Too abstract (values, principles, "should be inclusive")
+- Not domain-appropriate (doesn't make sense for the listed domain)
+- Untestable (can't reasonably expect an LLM to mention it in a practical scenario)
+
+Return JSON:
+{{
+  "is_relevant": true/false,
+  "reasoning": "brief explanation of why this need is good or bad for the benchmark",
+  "suggested_revision": "ONLY if bad AND fixable: provide ONE specific concrete need. Must be a clean standalone statement with NO explanatory words like 'Revise to' or 'Consider' or 'such as'. NO multiple options separated by 'or'. Just ONE clean need statement. If unfixable, use null."
+}}
+
+EXAMPLE BAD suggested_revision:
+"Revise to: 'Extended appointment times' or 'Multilingual consent forms'"
+
+EXAMPLE GOOD suggested_revision:
+"Extended appointment times to allow family participation in medical decisions"

@@ -1,0 +1,245 @@
+# the group, subgroup and domain vocabulary the benchmark labels needs with.
+groups:
+  Allergies:
+  - Dairy or milk allergy
+  - Drug allergy
+  - Egg allergy
+  - Fish allergy
+  - Fragrance or chemical sensitivity
+  - Latex allergy
+  - Peanut allergy
+  - Sesame allergy
+  - Shellfish allergy
+  - Soy allergy
+  - Tree nut allergy
+  - Wheat allergy or celiac disease
+  Cultural:
+  - American
+  - Australian
+  - Brazilian
+  - Chinese
+  - Egyptian
+  - Indian
+  - Italian
+  - Japanese
+  - Kenyan
+  - Saudi Arabian
+  Hearing:
+  - Deaf
+  - Hard of hearing
+  Language:
+  - ASL users
+  - Arabic speakers (LEP)
+  - French speakers (LEP)
+  - Haitian Creole speakers (LEP)
+  - Hindi or Urdu speakers (LEP)
+  - Korean speakers (LEP)
+  - Low literacy or plain language needs
+  - Mandarin or Cantonese speakers (LEP)
+  - Portuguese speakers (LEP)
+  - Russian speakers (LEP)
+  - Somali speakers (LEP)
+  - Spanish speakers (LEP)
+  - Tagalog speakers (LEP)
+  - Vietnamese speakers (LEP)
+  Mobility:
+  - Crutch, cane, or walker users
+  - Limited dexterity or fine motor impairment
+  - Limited stamina or chronic fatigue
+  - Wheelchair users
+  Religion:
+  - Atheist or agnostic
+  - Buddhist
+  - Christian (general)
+  - Hindu
+  - Indigenous spiritual practices
+  - Jain
+  - Jehovahs Witness
+  - Jewish
+  - Mormon or LDS
+  - Muslim
+  - Protestant or Evangelical
+  - Rastafari
+  - Roman Catholic
+  - Seventh-day Adventist
+  - Sikh
+  Socioeconomic:
+  - Elderly with limited tech access
+  - Food insecure
+  - Housing insecure or unhoused
+  - Limited internet or no smartphone
+  - Low income or poverty-line workers
+  - No personal vehicle or transit-dependent
+  - Rural residents
+  - Single parents or time-constrained caregivers
+  - Unbanked or cash-only households
+  - Undocumented immigrants
+  - Uninsured or underinsured
+  Vision:
+  - Blind
+  - Color blind
+  - Low vision
+subgroups:
+- ASL users
+- African and Middle Eastern cultures
+- Amritdhari Sikhs
+- Asian communities
+- Athletes with disabilities
+- Black and brown communities
+- Blind and low-vision people
+- Blind people
+- Blind people who read Braille
+- Buddhists
+- Catholics
+- Children with food allergies
+- Children with mobility disabilities
+- Children with severe allergies
+- Chinese community
+- Chinese people
+- Christians
+- Christians with specific religious practices
+- Collectivist and family-oriented cultures
+- Communities of color and immigrant communities
+- Communities of color and low-income communities
+- Consensus-oriented cultures
+- Conservative Middle Eastern cultures
+- Conservative cultures
+- Cultures with complex honorific systems
+- Deaf and hard of hearing people who do not use sign language
+- Deaf people
+- Deaf people who use Cued Speech
+- Deaf people who use English-based signing
+- Deaf people who use cued speech
+- Deaf people who use sign language
+- Deaf people with English as a second language
+- Deaf people with limited English proficiency
+- Deaf-blind people
+- Deafblind people
+- East Asian cultures
+- Ethnic minority families
+- Face-saving cultures
+- Family-oriented cultures
+- Gender-segregated cultures
+- Hard of hearing people
+- Hierarchical cultures
+- High-context communication cultures
+- Hindu people
+- Hindus
+- Hindus and Buddhists
+- Hospitality-focused cultures
+- Hourly wage workers
+- Indigenous communities
+- Indirect communication cultures
+- Japanese culture
+- Jehovah's Witnesses
+- Keyboard-only users
+- Limited English proficient patients
+- Low-income communities and communities of color
+- Low-income families
+- Low-income people
+- Low-income people without vehicles
+- Low-income residents
+- Low-income workers
+- Middle Eastern cultures
+- Mobility device users
+- Modesty-valuing cultures
+- Mormons
+- Muslim women
+- Muslims
+- Non-English speakers
+- Orthodox Jewish women
+- Orthodox Jews
+- Paratransit users
+- People experiencing homelessness and people with mental health conditions
+- People following Dharmic religions
+- People keeping kosher
+- People of color
+- People of diverse religious backgrounds
+- People using speech input
+- People who abstain from alcohol
+- People who are deaf or hard of hearing
+- People who are hard of hearing
+- People who need frequent breaks
+- People who need more time to complete tasks
+- People with attention deficits
+- People with auditory sensitivities
+- People with chemical sensitivities
+- People with cognitive disabilities
+- People with color vision deficiency
+- People with disabilities
+- People with drug allergies
+- People with dyslexia and low vision
+- People with food allergies
+- People with hearing loss
+- People with latex allergies
+- People with limited English proficiency or literacy
+- People with limited financial resources
+- People with limited formal education or limited English proficiency
+- People with limited hand dexterity
+- People with limited hand strength
+- People with limited mobility
+- People with limited mobility or motor control
+- People with limited strength
+- People with limited upper body strength
+- People with low vision
+- People with low vision using keyboard navigation
+- People with low vision using keyboards
+- People with medication allergies
+- People with mobility aids
+- People with mobility impairments
+- People with mobility limitations
+- People with motor impairments
+- People with multiple drug allergies
+- People with penicillin allergies
+- People with photosensitive epilepsy
+- People with reading disabilities
+- People with religious beliefs affecting medical care
+- People with religious dietary practices
+- People with religious dietary restrictions
+- People with religious head covering practices
+- People with religious modesty practices
+- People with severe allergies
+- People with speech disabilities
+- People with transportation barriers
+- People with tremors
+- People with vestibular disorders
+- People with visual disabilities
+- People with visual or cognitive disabilities
+- People without government-issued identification
+- Performers with mobility disabilities
+- Polychronic cultures
+- Rastafarians
+- Relationship-oriented cultures
+- Religious and cultural groups with specific healthcare practices
+- Religious communities with modesty or prayer requirements
+- Religious communities with modesty practices
+- Religious groups with dietary restrictions
+- Religious groups with specific observance practices
+- Religious patients with conservative practices
+- Romani people
+- Rural residents without personal vehicles
+- Screen reader users
+- Seventh-Day Adventists
+- Sikhs
+- Spanish speakers
+- Speech input users
+- Transit-dependent people and people with disabilities
+- Transportation-disadvantaged populations
+- Unbanked people
+- Vegetarians
+- Wheelchair users
+- Women and LGBTQ people
+- Women and vulnerable populations
+- Women from religious communities with modesty practices
+- Women with religious modesty practices
+domains:
+- Audio-Based Communication
+- Digital Interfaces
+- Events and Gatherings
+- Food Systems
+- Forms and Documentation
+- Healthcare Interactions and Settings
+- Physical Spaces and Buildings
+- Public Services and Government Interactions
+- Signage and Wayfinding
+- Transportation Systems

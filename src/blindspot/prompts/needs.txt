@@ -1,0 +1,1 @@
+Return ONLY a JSON array of hidden needs grounded in the provided sources. If none are supported, return []. Each item: {name, applies_to, trigger_cues, scope, severity, citations[{org,title,url,quoted_support}]}. Prefer citing the PDF URL when available. No prose, no code fences.

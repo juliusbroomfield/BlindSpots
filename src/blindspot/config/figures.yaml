@@ -1,0 +1,96 @@
+figures:
+  fig03:
+    module: fig03_recall
+    title: Recall by condition, and the detection/operationalization split
+    requires:
+    - gpt-5
+    - gpt-5-mini
+    - gpt-5-nano
+    - gpt-4.1
+    - llama-3.1-8b
+    - qwen-2.5-7b
+  fig04:
+    module: fig04_group_domain
+    title: Recall by group and domain, averaged over models (base condition)
+    requires:
+    - gpt-5
+    - gpt-5-mini
+    - gpt-5-nano
+    - gpt-4.1
+    - llama-3.1-8b
+    - qwen-2.5-7b
+  fig05:
+    module: fig05_persona
+    title: Persona, OmniPersona and MoS relative to matched baselines
+    requires:
+    - llama-3.1-8b
+    - llama-3.1-8b+persona
+    - llama-3.1-8b+omni
+    - llama-3.1-8b+mos
+    - gpt-5-mini
+    - gpt-5-mini+persona
+    - gpt-5-mini+omni
+    - gpt-5-mini+mos
+  fig06:
+    module: fig06_rag
+    title: RAG crossed with the group cue, and item overlap
+    requires:
+    - llama-3.1-8b
+    - llama-3.1-8b+rag
+  fig07:
+    module: fig07_sft
+    title: SFT overlap with the teacher, and recall across cue conditions
+    requires:
+    - llama-3.1-8b
+    - llama-3.1-8b-sft
+    - gpt-5
+  fig08:
+    module: fig08_icc
+    title: Within-need consistency across scenarios, by group
+    requires:
+    - gpt-5
+    - gpt-5-mini
+    - gpt-5-nano
+    - gpt-4.1
+    - llama-3.1-8b
+    - qwen-2.5-7b
+  fig09:
+    module: fig09_task_type
+    title: Recall by task type (creation vs. advice), base condition
+    requires:
+    - gpt-5
+    - gpt-5-mini
+    - gpt-5-nano
+    - gpt-4.1
+    - llama-3.1-8b
+    - qwen-2.5-7b
+  fig10:
+    module: fig10_clarifying
+    title: Clarifying question rates, base vs. guidance
+    requires:
+    - gpt-5
+    - gpt-5-mini
+    - gpt-5-nano
+    - gpt-4.1
+    - llama-3.1-8b
+    - qwen-2.5-7b
+  fig11:
+    module: fig11_model_correlation
+    title: Do models miss the same needs?
+    requires:
+    - gpt-5
+    - gpt-5-mini
+    - gpt-5-nano
+    - gpt-4.1
+    - llama-3.1-8b
+    - qwen-2.5-7b
+  fig12:
+    module: fig12_logistic
+    title: Logistic regression coefficients, group membership controlling for domain
+    requires:
+    - gpt-5
+    - gpt-5-mini
+    - gpt-5-nano
+    - gpt-4.1
+    - llama-3.1-8b
+    - qwen-2.5-7b

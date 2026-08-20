@@ -1,0 +1,23 @@
+# for figures
+palette:
+  dark: '#2f5aa8'
+  mid: '#48a0e0'
+  warm: '#e8842e'
+  green: '#3f9e6b'
+  none: '#e3e3e3'
+  ink: '#111111'
+  ink_mid: '#555555'
+  rule: '#888888'
+models:
+  GPT-5: '#1a3a7a'
+  GPT-5-mini: '#2f5aa8'
+  GPT-5-nano: '#48a0e0'
+  GPT-4.1: '#7fb2e0'
+  Llama 3.1 8B: '#e8842e'
+  Qwen 2.5 7B: '#b8860b'
+sizes:
+  row: 16
+  in_bar: 13
+  tick: 13
+  legend: 13
+  bar_height: 0.42

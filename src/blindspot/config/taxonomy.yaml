@@ -1,0 +1,236 @@
+# how the 71 benchmark group labels collapse into figure 4's columns
+columns:
+  Wheelchair users:
+    column: Wheelchair Users
+    category: Mobility
+  Crutch, cane, or walker users:
+    column: Walker / Cane Users
+    category: Mobility
+  Limited stamina or chronic fatigue:
+    column: Physical Limitations
+    category: Mobility
+  Limited dexterity or fine motor impairment:
+    column: Physical Limitations
+    category: Mobility
+  Blind:
+    column: Blind
+    category: Vision
+  Low vision:
+    column: Low Vision
+    category: Vision
+  Color blind:
+    column: Color Blind
+    category: Vision
+  Deaf:
+    column: Deaf
+    category: Hearing
+  Hard of hearing:
+    column: Hard of Hearing
+    category: Hearing
+  Indigenous spiritual practices:
+    column: Secular & Indigenous
+    category: Religion
+  Atheist or agnostic:
+    column: Secular & Indigenous
+    category: Religion
+  Buddhist:
+    column: Buddhist & Jain
+    category: Religion
+  Jain:
+    column: Buddhist & Jain
+    category: Religion
+  Mormon or LDS:
+    column: Christian Denominations
+    category: Religion
+  Roman Catholic:
+    column: Christian Denominations
+    category: Religion
+  Protestant or Evangelical:
+    column: Christian Denominations
+    category: Religion
+  Seventh-day Adventist:
+    column: Christian Denominations
+    category: Religion
+  Jehovahs Witness:
+    column: Christian Denominations
+    category: Religion
+  Christian (general):
+    column: Christian Denominations
+    category: Religion
+  Rastafari:
+    column: Christian Denominations
+    category: Religion
+  Hindu:
+    column: Hindu & Sikh
+    category: Religion
+  Sikh:
+    column: Hindu & Sikh
+    category: Religion
+  Muslim:
+    column: Muslim
+    category: Religion
+  Jewish:
+    column: Jewish
+    category: Religion
+  Peanut allergy:
+    column: Food Allergens
+    category: Allergies
+  Tree nut allergy:
+    column: Food Allergens
+    category: Allergies
+  Dairy or milk allergy:
+    column: Food Allergens
+    category: Allergies
+  Egg allergy:
+    column: Food Allergens
+    category: Allergies
+  Wheat allergy or celiac disease:
+    column: Food Allergens
+    category: Allergies
+  Soy allergy:
+    column: Food Allergens
+    category: Allergies
+  Fish allergy:
+    column: Food Allergens
+    category: Allergies
+  Shellfish allergy:
+    column: Food Allergens
+    category: Allergies
+  Sesame allergy:
+    column: Food Allergens
+    category: Allergies
+  Drug allergy:
+    column: Non-Food Allergens
+    category: Allergies
+  Fragrance or chemical sensitivity:
+    column: Non-Food Allergens
+    category: Allergies
+  Latex allergy:
+    column: Non-Food Allergens
+    category: Allergies
+  Lactose intolerance: null
+  No personal vehicle or transit-dependent:
+    column: Transportation & Rural Access
+    category: Socioeconomic
+  Rural residents:
+    column: Transportation & Rural Access
+    category: Socioeconomic
+  Low income or poverty-line workers:
+    column: Financial Hardship
+    category: Socioeconomic
+  Unbanked or cash-only households:
+    column: Financial Hardship
+    category: Socioeconomic
+  Food insecure:
+    column: Financial Hardship
+    category: Socioeconomic
+  Single parents or time-constrained caregivers:
+    column: Financial Hardship
+    category: Socioeconomic
+  Elderly with limited tech access:
+    column: Digital & Tech Barriers
+    category: Socioeconomic
+  Limited internet or no smartphone:
+    column: Digital & Tech Barriers
+    category: Socioeconomic
+  Housing insecure or unhoused:
+    column: Structural Vulnerability
+    category: Socioeconomic
+  Undocumented immigrants:
+    column: Structural Vulnerability
+    category: Socioeconomic
+  Uninsured or underinsured:
+    column: Structural Vulnerability
+    category: Socioeconomic
+  Spanish speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Mandarin or Cantonese speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Arabic speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Hindi or Urdu speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Vietnamese speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Korean speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Tagalog speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Russian speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Haitian Creole speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Portuguese speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  Somali speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  French speakers (LEP):
+    column: LEP Speakers
+    category: Language
+  ASL users:
+    column: ASL Users
+    category: Language
+  Low literacy or plain language needs:
+    column: Low Literacy
+    category: Language
+  American:
+    column: Anglophone West
+    category: Cultural
+  Australian:
+    column: Anglophone West
+    category: Cultural
+  Japanese:
+    column: East Asian
+    category: Cultural
+  Chinese:
+    column: East Asian
+    category: Cultural
+  Brazilian:
+    column: Latin American & African
+    category: Cultural
+  Kenyan:
+    column: Latin American & African
+    category: Cultural
+  Indian:
+    column: South Asian & MENA
+    category: Cultural
+  Egyptian:
+    column: South Asian & MENA
+    category: Cultural
+  Saudi Arabian:
+    column: South Asian & MENA
+    category: Cultural
+  Italian:
+    column: South Asian & MENA
+    category: Cultural
+category_order:
+- Mobility
+- Vision
+- Hearing
+- Religion
+- Allergies
+- Socioeconomic
+- Language
+- Cultural
+domain_order:
+- Audio-Based Communication
+- Digital Interfaces
+- Events and Gatherings
+- Food Systems
+- Forms and Documentation
+- Healthcare Interactions and Settings
+- Physical Spaces and Buildings
+- Public Services and Government Interactions
+- Signage and Wayfinding
+- Transportation Systems

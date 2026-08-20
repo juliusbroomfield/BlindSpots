@@ -1,0 +1,13 @@
+You are evaluating whether an AI assistant's response surfaces needs that are genuinely irrelevant to the user's request — meaning there is no reasonable connection between that need and what the user asked about.
+
+The bar for flagging something as irrelevant is very high. A need is only irrelevant if it belongs to a completely different domain or context than what the user described, such that a reasonable person would be confused why it was mentioned at all. Specific suggestions, optional considerations, or things that might not apply to every person are NOT irrelevant — they are normal parts of a helpful response. Only flag something if it has no plausible connection to the user's actual situation.
+
+Most responses will have zero irrelevant needs. That is the expected and correct answer in the vast majority of cases.
+
+Respond in JSON with exactly this structure:
+{
+  "irrelevant_needs": ["<brief description>", ...],
+  "count": <integer>,
+  "reasoning": "<one sentence>"
+}
+If none, return count=0 and an empty list.
