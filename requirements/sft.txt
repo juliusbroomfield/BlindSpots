@@ -1,0 +1,14 @@
+'''
+LoRA fine-tuning and local vLLM serving. Install torch first, matching your driver: https://pytorch.org
+
+pip install torch --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements/sft.txt
+'''
+
+transformers>=4.44
+peft>=0.12
+datasets>=2.20
+accelerate>=0.33
+bitsandbytes>=0.43
+wandb>=0.17
+vllm>=0.6
