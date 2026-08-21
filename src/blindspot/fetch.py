@@ -1,21 +1,3 @@
-"""
-getting the data.
-
-two separate things, and they're at different stages:
-
-  the benchmark   7,320 prompts, ~6 MB, on the hub at
-                  huggingface.co/datasets/juliusbroomfield/BlindSpots. it also
-                  ships in this repo, so you only need this if you installed
-                  the package without the checkout.
-
-  the runs        model responses and their judge labels, ~642 MB across 15
-                  runs. derived artifacts rather than source, too big for git,
-                  and not published yet.
-
-everything except the figures, tables and reported statistics works without the
-runs.
-"""
-
 from __future__ import annotations
 
 import urllib.request
@@ -26,8 +8,6 @@ from blindspot import config
 BENCHMARK_REPO = "juliusbroomfield/BlindSpots"
 BENCHMARK_FILE = "blindspot.jsonl"
 
-# TODO(release): publish the runs and set this. same repo works — put them under
-# a runs/ prefix and allow_patterns below will pick them up.
 RUNS_REPO = ""
 
 
